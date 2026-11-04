@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>My Portfolio</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 Arial,sans-serif;color:#263247}
+.top{display:flex;justify-content:space-between;align-items:center;padding:1rem 7%;background:#172b4d}.logo,nav a{color:white;text-decoration:none}.logo{font-weight:bold}nav{display:flex;gap:1.2rem}
+main{width:min(86%,1000px);margin:auto}section{padding:2.5rem 0}.hero{padding:5rem 0}.hero h1{max-width:650px;font-size:clamp(2rem,5vw,3.6rem);line-height:1.1}.eyebrow{color:#4777b8;letter-spacing:.12em;font-weight:bold}
+.button{display:inline-block;padding:.7rem 1rem;color:white;background:#315b91;border-radius:6px;text-decoration:none}
+.skills,.project-list{display:flex;flex-wrap:wrap;gap:1rem;padding:0;list-style:none}.skills li,.project-list article{padding:1rem;background:#eef3fa;border-radius:8px}.project-list article{flex:1 1 240px}
+footer{padding:1rem;text-align:center;background:#172b4d;color:white}
+@media(max-width:600px){.top{align-items:flex-start;flex-direction:column;gap:.8rem}nav{flex-wrap:wrap;gap:.7rem}}
+</style></head>
+<body>
+<header class="top"><a class="logo" href="#home">MyPortfolio</a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></header>
+<main id="home">
+<section class="hero"><p class="eyebrow">STUDENT PORTFOLIO</p><h1>Hello, I'm a student developer.</h1><p>I am learning to create useful and accessible websites with HTML and CSS.</p><a class="button" href="#projects">View my work</a></section>
+<section id="about"><h2>About</h2><p>I enjoy learning by building small projects and improving them step by step.</p></section>
+<section id="skills"><h2>Skills</h2><ul class="skills"><li>HTML</li><li>CSS</li><li>Git</li><li>Java</li></ul></section>
+<section id="projects"><h2>Projects</h2><div class="project-list"><article><h3>Bio Page</h3><p>A simple page made with semantic HTML.</p></article><article><h3>Responsive Layout</h3><p>A layout that adjusts to different screen sizes.</p></article></div></section>
+<section id="contact"><h2>Contact</h2><p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p></section>
+</main><footer><p>&copy; 2026 My Portfolio</p></footer>
+</body></html>

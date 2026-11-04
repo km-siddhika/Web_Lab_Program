@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Flexbox or Grid?</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:2rem 1rem;color:#243047;font:16px/1.6 Arial,sans-serif;background:#f3f6fb}
+.page{max-width:950px;margin:auto}header{max-width:650px;margin-bottom:2rem}h1{font-size:clamp(2.3rem,6vw,3.8rem);line-height:1.1}.eyebrow{color:#315b91;font-size:.8rem;font-weight:bold;letter-spacing:.12em}
+.comparison{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.comparison article,.summary{padding:1.5rem;background:white;border:1px solid #dce4ee;border-radius:10px}
+.flex-items{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem}.flex-items span,.grid-items span{padding:.8rem;text-align:center;background:#e6eef8;border-radius:6px}
+.grid-items{display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem}.summary{margin-top:1rem}
+@media(max-width:620px){.comparison{grid-template-columns:1fr}}
+</style></head><body><main class="page"><header><p class="eyebrow">LAYOUT NOTES</p><h1>Flexbox or Grid?</h1><p>Both are useful. The choice depends on the layout you need.</p></header>
+<section class="comparison"><article class="flex-example"><h2>Flexbox</h2><p>Best for arranging items in one direction: a row or a column.</p><div class="flex-items"><span>Logo</span><span>About</span><span>Contact</span></div></article>
+<article class="grid-example"><h2>Grid</h2><p>Best when rows and columns need to work together.</p><div class="grid-items"><span>One</span><span>Two</span><span>Three</span><span>Four</span></div></article></section>
+<section class="summary"><h2>Quick guide</h2><p>Use Flexbox for a navigation bar or a row of buttons. Use Grid for a dashboard, gallery or page with clear rows and columns. They can also be combined.</p></section></main></body></html>

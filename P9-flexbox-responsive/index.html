@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Responsive Flexbox</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 Arial,sans-serif;color:#25324a}.header{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 7%;background:#1e355b}
+.brand,nav a{color:white;text-decoration:none}.brand{font-weight:bold}nav{display:flex;flex-wrap:wrap;gap:1.2rem}
+main{width:min(86%,1000px);margin:3rem auto}.grid{display:flex;flex-wrap:wrap;gap:1rem}.card{flex:1 1 240px;padding:1.3rem;border:1px solid #dbe3ee;border-radius:10px}
+@media(max-width:560px){.header{align-items:flex-start;flex-direction:column}nav{gap:.8rem}}
+</style></head><body>
+<header class="header"><a class="brand" href="#">My Space</a><nav><a href="#">Home</a><a href="#">Work</a><a href="#">Contact</a></nav></header>
+<main><h1>My learning cards</h1><div class="grid"><article class="card"><h2>HTML</h2><p>Structuring content with meaningful elements.</p></article><article class="card"><h2>CSS</h2><p>Styling pages and making them responsive.</p></article><article class="card"><h2>Git</h2><p>Keeping track of project changes.</p></article></div></main>
+</body></html>

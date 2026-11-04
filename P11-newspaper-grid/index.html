@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Daily Layout</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:1.5rem;color:#222;font-family:Georgia,serif;background:#f7f4ed}
+.masthead{padding:1rem 0;text-align:center;border-top:4px solid #222;border-bottom:1px solid #222}.masthead p{margin:0;font-size:clamp(2rem,6vw,4rem);font-weight:bold;letter-spacing:.06em}.masthead span{font: .9rem Arial,sans-serif}
+.newspaper{display:grid;grid-template-columns:2fr 1fr 1fr;gap:1.5rem;max-width:1100px;margin:2rem auto}.newspaper article{padding:1rem;border-right:1px solid #c8c2b6}
+.newspaper h1{font-size:clamp(2rem,4vw,3.5rem);line-height:1.05}.newspaper h2{font-size:1.4rem}.kicker{font:bold .8rem Arial,sans-serif;letter-spacing:.1em}
+.bottom{grid-column:1/-1;border-top:1px solid #aaa;border-right:0!important}
+@media(max-width:700px){.newspaper{grid-template-columns:1fr 1fr}.lead,.bottom{grid-column:1/-1}}
+@media(max-width:460px){body{padding:.8rem}.newspaper{grid-template-columns:1fr}.newspaper article{border-right:0;border-bottom:1px solid #c8c2b6}}
+</style></head><body>
+<header class="masthead"><p>THE STUDENT TIMES</p><span>Learning • Technology • Campus</span></header>
+<main class="newspaper"><article class="lead"><p class="kicker">CAMPUS</p><h1>Students learn by building real projects</h1><p>Practical work gives learners a chance to connect classroom topics with everyday problems. Small experiments also make it easier to notice what needs improvement.</p></article>
+<article><h2>Technology corner</h2><p>HTML gives a page its structure, while CSS controls its presentation. Learning both together helps explain how a website is put together.</p></article>
+<article><h2>Study notes</h2><p>Breaking a large task into smaller steps can make it easier to plan, test and complete.</p></article>
+<article class="bottom"><h2>Next issue</h2><p>More student projects and useful web development notes.</p></article></main></body></html>
