@@ -1,0 +1,6 @@
+git add README.md
+git commit -m "Update project documentation"
+git tag -a v1.0 -m "First lab version"
+git tag
+git push origin main
+git push origin v1.0
