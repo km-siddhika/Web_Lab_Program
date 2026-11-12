@@ -1,0 +1,16 @@
+git branch feature
+git switch feature
+git add .
+git commit -m "Added about page"
+git switch main
+git merge feature
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>I love coding.</p>
+</body>
+</html>
