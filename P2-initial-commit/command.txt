@@ -1,0 +1,17 @@
+git init 
+git add .
+git commit -m"p2"
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <h1>My Name</h1>
+    <h2>About Me</h2>
+    <p>I am a student.</p>
+    <h2>Skills</h2>
+    <p>HTML, CSS, Java</p>
+</body>
+</html>
