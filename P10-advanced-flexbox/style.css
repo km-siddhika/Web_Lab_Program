@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: navy;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    height: 300px;
+    padding: 20px;
+}
