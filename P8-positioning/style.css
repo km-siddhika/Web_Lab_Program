@@ -1,0 +1,26 @@
+nav {
+    position: sticky;
+    top: 0;
+    background: navy;
+    color: white;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
